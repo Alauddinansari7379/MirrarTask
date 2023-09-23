@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/main_color"
+    android:orientation="vertical">
+ <androidx.appcompat.widget.AppCompatImageView
+     android:layout_width="220dp"
+     android:layout_height="140dp"
+      android:background="@drawable/nasa_logo">
+
+ </androidx.appcompat.widget.AppCompatImageView>
+ <androidx.viewpager.widget.ViewPager
+     android:layout_width="match_parent"
+     android:layout_marginTop="5dp"
+     android:layout_height="1dp"
+  android:background="@color/white">
+
+ </androidx.viewpager.widget.ViewPager>
+
+ <LinearLayout
+     android:id="@+id/layoutDownloaded"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="20dp">
+  <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_gravity="center"
+      android:backgroundTint="@color/white"
+      android:background="@drawable/baseline_arrow_downward_24">
+
+  </androidx.appcompat.widget.AppCompatImageView>
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:background="?android:attr/selectableItemBackground"
+      android:foregroundGravity="bottom"
+      android:padding="5dp"
+      android:text="Downloaded Data"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      android:textStyle="bold">
+
+  </androidx.appcompat.widget.AppCompatTextView>
+ </LinearLayout>
+ <LinearLayout
+     android:id="@+id/layoutVideoPlayer"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="20dp">
+  <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_gravity="center"
+      android:backgroundTint="@color/white"
+      android:background="@drawable/baseline_arrow_downward_24">
+
+  </androidx.appcompat.widget.AppCompatImageView>
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:background="?android:attr/selectableItemBackground"
+      android:foregroundGravity="bottom"
+      android:padding="5dp"
+      android:text="Video Player"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      android:textStyle="bold">
+
+  </androidx.appcompat.widget.AppCompatTextView>
+ </LinearLayout>
+
+
+
+ </LinearLayout>
+
